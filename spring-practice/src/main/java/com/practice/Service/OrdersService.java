@@ -38,11 +38,11 @@ public class OrdersService {
         this.orderList.add(new Order(2,calctotalPriceAMealList(mealList2),"Bill", mealList2));
 
         this.orderLists.add(0,orderList);
-        this.ordersList.add(new Orders(orderLists,calcRevenueAday(orderLists),1));
+        this.ordersList.add(new Orders(orderLists,calcRevenuedays(orderLists),1));
 
     }
     //calculate revenue per day
-    public int calcRevenueAday(List<List<Order>> llo){
+    public int calcRevenuedays(List<List<Order>> llo){
         int total = 0;
         for(List<Order> lo: llo){
             for(Order o: lo){

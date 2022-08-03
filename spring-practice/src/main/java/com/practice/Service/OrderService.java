@@ -12,8 +12,8 @@ import java.util.List;
 @Service
 public class OrderService {
     List<Order> orderList; //per day
-    List<Meal> mealList;
-    List<Meal> mealList2;
+    List<Meal> mealList; //person1
+    List<Meal> mealList2; //person2
 
 
     public OrderService(){

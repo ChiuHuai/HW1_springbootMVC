@@ -3,7 +3,7 @@ package com.practice.Model;
 import java.util.List;
 
 public class Orders {
-    private List<List<Order>> orders;
+    private List<List<Order>> orders; //orders of many days
     private int revenueAday;
 
     private int no;
